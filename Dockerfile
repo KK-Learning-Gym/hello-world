@@ -2,4 +2,6 @@ FROM alpine:latest
 
 RUN echo "hello world"
 
-ENTRYPOINT [ "date" ]
+RUN sleep 5s
+
+CMD [ "date" ]
