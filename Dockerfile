@@ -4,4 +4,4 @@ RUN echo "hello world"
 
 RUN sleep 5s
 
-CMD [ "date" ]
+CMD [ "pwd" ]
